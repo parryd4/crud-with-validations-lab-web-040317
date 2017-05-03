@@ -1,0 +1,8 @@
+<p><%= @song.title %></p>
+<p><%= @song.release_year %></p>
+<p><%= @song.released %></p>
+<p><%= @song.genre %></p>
+<p><%= @song.artist_name %></p>
+
+<p><%= link_to("Edit", edit_song_path(@song)) %> </p>
+<p><%= link_to("MURDER DELETE KILL", @song, method: :delete) %></p>
